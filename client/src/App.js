@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import CountDown from './countdown/CountDown'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
       <CountDown/>
-      </div>
+    </MuiThemeProvider>
     );
   }
 }
