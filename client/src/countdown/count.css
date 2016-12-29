@@ -1,0 +1,33 @@
+.counter{
+  font-family: sans-serif;
+  font-weight: 100;
+  background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.8) 2%, rgba(0,0,0,0.8) 3%, rgba(0,0,0,0.6) 68%, rgba(0,0,0,0.4) 100%);
+background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.8) 2%,rgba(0,0,0,0.8) 3%,rgba(0,0,0,0.6) 68%,rgba(0,0,0,0.4) 100%);
+background: linear-gradient(45deg,  rgba(0,0,0,0.8) 2%,rgba(0,0,0,0.8) 3%,rgba(0,0,0,0.6) 68%,rgba(0,0,0,0.4) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );
+background-size: cover;
+padding: 10px;
+
+margin: -10px -10px 0px -10px !important;
+height: 600px;
+}
+.sec{
+  margin-top: -10px;
+  font-size: 100px;
+  color: rgba(255,255,255,0.6);
+}
+.min{
+  margin-top: -40px;
+  font-size: 70px;
+  color: rgba(255,255,255,0.6);
+}
+.hr{
+  margin-top: -20px;
+  font-size: 50px;
+  color: rgba(255,255,255,0.6);
+}
+.dy{
+  margin-top: -20px;
+  font-size: 30px;
+  color: rgba(255,255,255,0.6);
+}
