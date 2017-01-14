@@ -8,10 +8,11 @@
   "dependencies": {
     "install": "0.8.4",
     "material-ui": "0.16.6",
-    "moment": "^2.17.1",
+    "moment": "2.17.1",
     "npm": "4.0.5",
     "react": "15.4.1",
     "react-dom": "15.4.1",
+    "react-bootstrap": "0.30.7",
     "react-tap-event-plugin": "2.0.1",
     "timer.js": "1.0.4"
   },

@@ -67,8 +67,15 @@ export default class CountDown extends Component{
               <div>
                 <p className="sec">{this.state.second} Seconds</p>
                 <p className="min">{this.state.minute} Minutes</p>
-                <p className="hr">{this.state.hour} Minutes</p>
+                <p className="hr">{this.state.hour} Hours</p>
                 <p className="dy">{this.state.day} Days</p>
+                <div>
+                  <DatePicker
+                    hintText="Select Day"
+                    mode="landscape"
+                    onChange={this.dayChange}
+                  />
+                </div>
               </div>
             :
               <div>
@@ -76,11 +83,6 @@ export default class CountDown extends Component{
               </div>
           }
         </div>
-        <DatePicker
-          hintText="Select Day"
-          mode="landscape"
-          onChange={this.dayChange}
-        />
       </div>
     )
   }
